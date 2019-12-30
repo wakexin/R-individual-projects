@@ -13,15 +13,17 @@
     }
 
 #0. Clean Data ##First of all, I took a look at the data. There are several
-variables that are not numerical variables. ##0.1 For DOB, I turned Date of
+variables that are not numerical variables. 
+
+##0.1 For DOB, I turned Date of
 birth (DOB.x, DOB.y) into age to get valuable insight. To do that, I
 subtracted the year from date of birth which is in day/month/year formate and
-divided the number of days to get number of years, which is age. ##0.2 For
-Stance, I created a new factor “other” to replace player’s stance with N/A. A
+divided the number of days to get number of years, which is age. 
+##0.2 For Stance, I created a new factor “other” to replace player’s stance with N/A. A
 few rows still have n/a values, but predicting those values such as weight and
 height will create greater errors for the predictions. Therefore, I used
-function complete.cases to remove reamining rows with NA. ##0.3 For NA values
-in Reach, I built a model, using height and weight to predict the reach of
+function complete.cases to remove reamining rows with NA. 
+##0.3 For NA values in Reach, I built a model, using height and weight to predict the reach of
 missing values in reach.
 
     
