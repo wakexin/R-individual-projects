@@ -5,7 +5,6 @@
 #### 12/1/2019
 ---
 title: "In class Final"
-author: "Fenglin Liu"
 date: "12/5/2019"
 output: html_document
 ---
